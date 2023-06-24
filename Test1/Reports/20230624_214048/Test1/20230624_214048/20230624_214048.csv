@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test1,,,,2023-06-24 21:41:03,2023-06-24 21:41:19,16.117s,PASSED
+,,,,,,,
+Test Cases/List_Users,,,,2023-06-24 21:41:04,2023-06-24 21:41:14,9.220s,PASSED
+"response = sendRequest(findTestObject(""List_Users""))",,,,2023-06-24 21:41:06,2023-06-24 21:41:12,6.221s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2023-06-24 21:41:12,2023-06-24 21:41:12,0.052s,PASSED
+"verifyElementPropertyValue(response, ""data[0].first_name"", ""George"")",,,,2023-06-24 21:41:12,2023-06-24 21:41:13,0.224s,PASSED
+"verifyElementPropertyValue(response, ""data[1].first_name"", ""Janet"")",,,,2023-06-24 21:41:13,2023-06-24 21:41:13,0.148s,PASSED
+"verifyElementPropertyValue(response, ""data[2].first_name"", ""Emma"")",,,,2023-06-24 21:41:13,2023-06-24 21:41:13,0.280s,PASSED
+"verifyElementPropertyValue(response, ""data[3].first_name"", ""Eve"")",,,,2023-06-24 21:41:13,2023-06-24 21:41:13,0.091s,PASSED
+"verifyElementPropertyValue(response, ""data[4].first_name"", ""Charles"")",,,,2023-06-24 21:41:13,2023-06-24 21:41:13,0.178s,PASSED
+"verifyElementPropertyValue(response, ""data[5].first_name"", ""Tracey"")",,,,2023-06-24 21:41:13,2023-06-24 21:41:14,0.147s,PASSED
+,,,,,,,
+Test Cases/Single_User,,,,2023-06-24 21:41:14,2023-06-24 21:41:15,1.883s,PASSED
+"response = sendRequest(findTestObject(""Single_User""))",,,,2023-06-24 21:41:15,2023-06-24 21:41:15,0.428s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2023-06-24 21:41:15,2023-06-24 21:41:15,0.007s,PASSED
+"verifyElementPropertyValue(response, ""data.first_name"", ""Janet"")",,,,2023-06-24 21:41:15,2023-06-24 21:41:15,0.055s,PASSED
+"verifyElementPropertyValue(response, ""data.last_name"", ""Weaver"")",,,,2023-06-24 21:41:15,2023-06-24 21:41:15,0.080s,PASSED
+,,,,,,,
+Test Cases/Put_Update,,,,2023-06-24 21:41:15,2023-06-24 21:41:18,2.233s,PASSED
+"response = sendRequest(findTestObject(""Put_Update""))",,,,2023-06-24 21:41:17,2023-06-24 21:41:17,0.793s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2023-06-24 21:41:17,2023-06-24 21:41:17,0.003s,PASSED
+"verifyElementPropertyValue(response, ""name"", ""morpheus"")",,,,2023-06-24 21:41:18,2023-06-24 21:41:18,0.057s,PASSED
+"verifyElementPropertyValue(response, ""job"", ""zion resident"")",,,,2023-06-24 21:41:18,2023-06-24 21:41:18,0.103s,PASSED
+,,,,,,,
+Test Cases/Register_Successful,,,,2023-06-24 21:41:18,2023-06-24 21:41:19,1.716s,PASSED
+"response = sendRequest(findTestObject(""List_Users""))",,,,2023-06-24 21:41:19,2023-06-24 21:41:19,0.405s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2023-06-24 21:41:19,2023-06-24 21:41:19,0.003s,PASSED

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test1" time="16.117" tests="4" failures="0" errors="0">
+   <testsuite name="Test1" tests="4" failures="0" errors="0" time="16.117" skipped="0" timestamp="2023-06-24 21:41:03" hostname="User - WINDOWS-648E82N" id="Test Suites/Test1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\KATALON\\API\\katalon_api\\Reports\\20230624_214048\\Test1\\20230624_214048"/>
+         <property name="logFiles" value="D:\\KATALON\\API\\katalon_api\\Reports\\20230624_214048\\Test1\\20230624_214048\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - WINDOWS-648E82N"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+      </properties>
+      <testcase name="Test Cases/List_Users" time="9.22" classname="Test Cases/List_Users" status="PASSED">
+         <system-out><![CDATA[2023-06-24 21:41:04 - [TEST_CASE][PASSED] - Test Cases/List_Users: Test Cases/List_Users
+
+2023-06-24 21:41:06 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("List_Users")): Send request successfully
+
+2023-06-24 21:41:12 - [MESSAGE][INFO] - HAR: D:\KATALON\API\katalon_api\Reports\20230624_214048\Test1\20230624_214048\requests\main\0.har
+
+2023-06-24 21:41:12 - [MESSAGE][PASSED] - Send request successfully
+
+2023-06-24 21:41:12 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2023-06-24 21:41:12 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-06-24 21:41:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].first_name", "George"): Verify element property value successfully
+
+2023-06-24 21:41:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-06-24 21:41:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[1].first_name", "Janet"): Verify element property value successfully
+
+2023-06-24 21:41:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-06-24 21:41:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[2].first_name", "Emma"): Verify element property value successfully
+
+2023-06-24 21:41:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-06-24 21:41:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[3].first_name", "Eve"): Verify element property value successfully
+
+2023-06-24 21:41:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-06-24 21:41:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[4].first_name", "Charles"): Verify element property value successfully
+
+2023-06-24 21:41:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-06-24 21:41:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[5].first_name", "Tracey"): Verify element property value successfully
+
+2023-06-24 21:41:14 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Single_User" time="1.883" classname="Test Cases/Single_User" status="PASSED">
+         <system-out><![CDATA[2023-06-24 21:41:14 - [TEST_CASE][PASSED] - Test Cases/Single_User: Test Cases/Single_User
+
+2023-06-24 21:41:15 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Single_User")): Send request successfully
+
+2023-06-24 21:41:15 - [MESSAGE][INFO] - HAR: D:\KATALON\API\katalon_api\Reports\20230624_214048\Test1\20230624_214048\requests\main\1.har
+
+2023-06-24 21:41:15 - [MESSAGE][PASSED] - Send request successfully
+
+2023-06-24 21:41:15 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2023-06-24 21:41:15 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-06-24 21:41:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.first_name", "Janet"): Verify element property value successfully
+
+2023-06-24 21:41:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-06-24 21:41:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.last_name", "Weaver"): Verify element property value successfully
+
+2023-06-24 21:41:15 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Put_Update" time="2.233" classname="Test Cases/Put_Update" status="PASSED">
+         <system-out><![CDATA[2023-06-24 21:41:15 - [TEST_CASE][PASSED] - Test Cases/Put_Update: Test Cases/Put_Update
+
+2023-06-24 21:41:17 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Put_Update")): Send request successfully
+
+2023-06-24 21:41:17 - [MESSAGE][INFO] - HAR: D:\KATALON\API\katalon_api\Reports\20230624_214048\Test1\20230624_214048\requests\main\2.har
+
+2023-06-24 21:41:17 - [MESSAGE][PASSED] - Send request successfully
+
+2023-06-24 21:41:17 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2023-06-24 21:41:17 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-06-24 21:41:18 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "name", "morpheus"): Verify element property value successfully
+
+2023-06-24 21:41:18 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-06-24 21:41:18 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "job", "zion resident"): Verify element property value successfully
+
+2023-06-24 21:41:18 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register_Successful" time="1.716" classname="Test Cases/Register_Successful" status="PASSED">
+         <system-out><![CDATA[2023-06-24 21:41:18 - [TEST_CASE][PASSED] - Test Cases/Register_Successful: Test Cases/Register_Successful
+
+2023-06-24 21:41:19 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("List_Users")): Send request successfully
+
+2023-06-24 21:41:19 - [MESSAGE][INFO] - HAR: D:\KATALON\API\katalon_api\Reports\20230624_214048\Test1\20230624_214048\requests\main\3.har
+
+2023-06-24 21:41:19 - [MESSAGE][PASSED] - Send request successfully
+
+2023-06-24 21:41:19 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2023-06-24 21:41:19 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-24 21:41:03 - [TEST_SUITE][PASSED] - Test1: Test Cases/Register_Successful]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Put_Update</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>960af94b-8431-4d66-93cd-2aebce00b953</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>158157a9-08d6-4cf6-b9c9-86fc3588a217</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>158157a9-08d6-4cf6-b9c9-86fc3588a217</id>
+      <masked>false</masked>
+      <name>response</name>
+   </variable>
+</TestCaseEntity>
